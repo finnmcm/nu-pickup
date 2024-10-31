@@ -1,0 +1,73 @@
+/* Reset and general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F8F9FA;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    color: #4E2A84; /* Northwestern purple */
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.header .subtitle {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.event-details, .players {
+    margin-top: 20px;
+}
+
+.event-details h2, .players h2 {
+    color: #4E2A84;
+    border-bottom: 2px solid #4E2A84;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.info div {
+    margin-bottom: 5px;
+}
+
+.players ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.players li {
+    padding: 8px;
+    background-color: #EFEFEF;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.players li:nth-child(odd) {
+    background-color: #E5E5E5;
+}

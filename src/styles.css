@@ -1,8 +1,8 @@
 
 
 /* Header */
-header {
-  background-color: #3F3B3B; /* Northwestern's purple */
+.header-main {
+  background-color: #4E2A84; /* Northwestern's purple */
   color: white;
   padding: 1rem;
   display: flex;
@@ -113,5 +113,16 @@ h1 {
     bottom: 0;
     width: 100%;
   }
+  .description {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+.event-details h2, .players h2 {
+  color: #333;
+  border-bottom: 2px solid #4E2A84;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
   
   
